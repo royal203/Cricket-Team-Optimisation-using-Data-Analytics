@@ -4,43 +4,65 @@ This project aims to analyze and rank cricket players based on their performance
 
 
 
+
+
 **Features**
 
 •Player performance evaluation based on batting and bowling statistics.
+
 •Calculation of recency, consistency, and form factors for players.
+
 •Ranking of players in different categories: batsmen, bowlers, all-rounders, and wicketkeepers.
+
 •Generation of radar plots to visualize player performance metrics.
+
+
+
 
 
 
 **Code Structure**
 
+
 •Step 1: Import necessary libraries and dataframes
 Import required libraries and read data into pandas dataframes.
+
 •Step 2: Initialize data structures for batsman and bowler details
 Initialize dictionaries to store player details and performance metrics.
+
 •Step 3: Update batsman details
 Iterate through the batting dataframe to update player performance metrics.
+
 •Step 4: Update bowler details
 Iterate through the bowling dataframe to update player performance metrics.
+
 •Step 5: Calculate form factors
 Define a function to calculate form factors for players.
+
 •Step 6: Calculate rankings
 Define a function to rank players based on their performance metrics.
+
 •Step 7: Evaluate batsman performance
 Define a function to evaluate and update batsman performance metrics.
+
 •Step 8: Evaluate bowler performance
 Define a function to evaluate and update bowler performance metrics.
+
 •Step 9: Apply eligibility criteria
 Apply criteria to select eligible batsmen, bowlers, all-rounders, and wicketkeepers.
+
 •Step 10: Determine maximum metrics
 Calculate maximum metrics for normalization.
+
 •Step 11: Rank players
 Rank players based on their normalized performance metrics.
+
 •Step 12: Plot radar plots
 Generate radar plots to visualize player performance.
+
 •Step 13: Print top players
 Print the top 10 players in each category.
+
 
 
 **Installation**
@@ -53,7 +75,9 @@ To run this project, you need to have Python and the following libraries install
 
 •matplotlib
 
+
 You can install these libraries using pip:
+
 pip install pandas numpy matplotlib
 
 
